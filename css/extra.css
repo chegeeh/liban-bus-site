@@ -1,0 +1,12 @@
+/* Small additions on top of the compiled stylesheet (css/styles.css) */
+select, input[type="date"], input[type="search"], input[type="text"], input[type="tel"], textarea { font: inherit; color: inherit; }
+select { appearance: auto; }
+#mobile-menu.open { display: block; }
+.dep-btn { display:flex; flex-direction:column; align-items:center; gap:2px; border:1px solid var(--border, #e5e7eb); border-radius:.5rem; padding:.75rem; text-align:center; transition:border-color .15s, background .15s; background: var(--card, #fff); }
+.dep-btn:hover { border-color: var(--accent, #d97706); }
+.dep-time { font-family: Archivo, system-ui, sans-serif; font-weight:700; font-size:1.25rem; }
+.dep-cta { font-size:.75rem; opacity:.75; }
+.route-card.hidden-by-filter { display:none; }
+.mb-10 { margin-bottom: 2.5rem; }
+.inline-block { display: inline-block; }
+@media (min-width: 640px) { .sm\:p-6 { padding: 1.5rem; } .sm\:w-72 { width: 18rem; } }
